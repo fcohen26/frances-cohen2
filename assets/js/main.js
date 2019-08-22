@@ -76,3 +76,11 @@ class StickyNavigation {
 }
 
 new StickyNavigation();
+
+$(function() {
+  $('.card').click(function() {
+  	$('.content').toggleClass('open');
+  	$(this).toggleClass('open');
+  })
+  
+})
